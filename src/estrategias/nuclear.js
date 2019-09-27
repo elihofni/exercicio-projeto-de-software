@@ -8,6 +8,14 @@ export const estrategiaNuclear = {
       console.log("GUERRA INICIADA COM INIMIGO NUCLEAR this is sparta!!!");
       return true;
     }
+
+    if (inimigo.tipo === TIPOS["exercito"]) {
+      console.log("GUERRA INICIADA COM INIMIGO EXÉRCITO esmagar!!!");
+      return true;
+    }
+
+    console.log("GUERRA INICIADA COM INIMIGO FRÁGIL sem testemunhas!!!");
+    return true;
   },
   encerrar: inimigo => {}
 };

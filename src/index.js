@@ -14,4 +14,4 @@ pais2.iniciar(pais3);
 pais2.iniciar(pais1);
 
 pais3.iniciar(pais1);
-pais3.iniciar(pais3);
+pais3.iniciar(pais2);
